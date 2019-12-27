@@ -17,14 +17,14 @@ export default new VueRouter({
 
         },
         {
-            path: '/edit_post_:id',
+            path: '/edit_post/:id', name:'edit_post',
             component: Editor
 
-        }
-        // {
-        //     path:'*',
-        //     redirect:'/wall'
-        // }
+        },
+        {
+            path:'*',
+            redirect:'/wall'
+        },
         
        
     ]

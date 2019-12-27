@@ -20,7 +20,7 @@
                     Delete
                 </a>
 
-                <router-link :to="`edit_post_${id}`" class="edit-link">
+                <router-link :to="`/edit_post/${id}`" class="edit-link">
                     <i class="fas fa-pencil-alt"></i>
                     Edit
                 </router-link>

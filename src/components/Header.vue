@@ -3,9 +3,9 @@
 		<div class="container">
 			<div class="header__row">
 
-				<a href="index.html" class="header__logo">
+				<router-link to="/wall" class="header__logo">
 					<i class="fab fa-dev"></i>
-				</a>
+				</router-link>
 
 				<div class="header__search">
 					<div class="search">
